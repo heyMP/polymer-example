@@ -8,8 +8,7 @@
 
 <div class="input">
   <label>Polymer Input</label>
-  <paper-input label="Name" is="iron-input" [value]="name" [(bind-value)]="name"></paper-input>
+  <paper-input label="Name" [value]="name" (input)="name = $event.target.value"></paper-input>
 </div>
-
 
 <div class="output">Hello my name is: {{name}}</div>
