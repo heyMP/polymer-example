@@ -1,0 +1,16 @@
+.title {
+  text-align: center;
+}
+
+.input {
+  margin: 3em;
+  padding: 1em;
+  background: white;
+  box-shadow: 2px 2px 5px rgba(0,0,0, 0.4);
+}
+
+.output {
+  font-size: 2rem;
+  color:#333333;
+  text-align: center;
+}

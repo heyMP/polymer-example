@@ -1,3 +1,14 @@
-<h1>
-  {{title}}
-</h1>
+<h1 class="title">Polymer and Angular Example</h1>
+
+
+<div class="input">
+  <label>Polymer Input</label>
+  <paper-input label="Name" is="iron-input" [value]="name" [(bind-value)]="name"></paper-input>
+</div>
+
+<div class="input">
+  <label>Input for Angular two-way data binding</label>
+  <input type="text" [(ngModel)]="name">
+</div>
+
+<div class="output">Hello my name is: {{name}}</div>
