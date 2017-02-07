@@ -8,11 +8,6 @@ I'm importing the Polymer elements and polyfils here: https://github.com/heyMP/p
 
 The Polymer 'paper-input' element is being set here: https://github.com/heyMP/polymer-example/blob/master/src/app/app.component.html#L11.
 
-I'm not sure how to get the new value of the input out of the `paper-input` element.
-
-
--
-
 ## Development server
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
