@@ -1,5 +1,7 @@
 # PolymerExample
 
+Demo: https://heymp.github.io/polymer-example/
+
 ## Polymer Integration
 
 I'm importing the Polymer elements and polyfils here: https://github.com/heyMP/polymer-example/blob/master/src/index.html#L10-L19
