@@ -1,8 +1,18 @@
 # PolymerExample
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+## Polymer Integration
+
+I'm importing the Polymer elements and polyfils here: https://github.com/heyMP/polymer-example/blob/master/src/index.html#L10-L19
+
+The Polymer 'paper-input' element is being set here: https://github.com/heyMP/polymer-example/blob/master/src/app/app.component.html#L11.
+
+I'm not sure how to get the new value of the input out of the `paper-input` element.
+
 
 ## Development server
+
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
