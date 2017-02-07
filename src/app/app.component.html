@@ -1,14 +1,15 @@
 <h1 class="title">Polymer and Angular Example</h1>
+<a class="github-link" href="https://github.com/heyMP/polymer-example">View on Github</a>
 
+<div class="input">
+  <label>Input for Angular two-way data binding</label>
+  <input type="text" [(ngModel)]="name">
+</div>
 
 <div class="input">
   <label>Polymer Input</label>
   <paper-input label="Name" is="iron-input" [value]="name" [(bind-value)]="name"></paper-input>
 </div>
 
-<div class="input">
-  <label>Input for Angular two-way data binding</label>
-  <input type="text" [(ngModel)]="name">
-</div>
 
 <div class="output">Hello my name is: {{name}}</div>
