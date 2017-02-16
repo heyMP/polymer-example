@@ -4,6 +4,7 @@ Demo: https://heymp.github.io/polymer-example/
 
 ## Polymer Integration
 
+- Configure bower to place dependencies in the correct directory https://github.com/heyMP/polymer-example/blob/master/.bowerrc
 - Import elements and polyfills: https://github.com/heyMP/polymer-example/blob/master/src/index.html#L10-L19
 - Add CUSTOM_ELEMENTS_SCHEMA to the schemas list: https://github.com/heyMP/polymer-example/blob/master/src/app/app.module.ts#L19
 - Set your custom element: https://github.com/heyMP/polymer-example/blob/master/src/app/app.component.html#L11.
